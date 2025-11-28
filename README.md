@@ -5,7 +5,6 @@
 [![Repo Size](https://img.shields.io/github/repo-size/graccelle/agentic-ai-rag-demo)](https://github.com/graccelle/agentic-ai-rag-demo)
 [![Last Commit](https://img.shields.io/github/last-commit/graccelle/agentic-ai-rag-demo)](https://github.com/graccelle/agentic-ai-rag-demo/commits/main)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![License: MIT](https://img.shields.io/badge/license-MIT-purple)](LICENSE)
 [![Streamlit App](https://img.shields.io/badge/app-Streamlit-ff4b4b?logo=streamlit)](#streamlit-demo)
 
 A lightweight demonstration of **agentic-style reasoning** combined with a simple **Retrieval-Augmented Generation (RAG)** pipeline,
@@ -153,7 +152,8 @@ You will get a simple web UI where you can:
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is provided for personal portfolio and demonstration purposes only.  
+All rights reserved. Redistribution, modification, or commercial use is not permitted.
 
 ---
 
