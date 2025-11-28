@@ -26,10 +26,10 @@ This repo is designed as a portfolio project to show:
 flowchart TD
     Q[User Query] --> A[Agent Core]
     A --> R[Retriever]
-    R --> E[Embedder (SentenceTransformer)]
-    E --> VS[Vector Store (FAISS)]
+    R --> E[Embedder - SBERT Model]
+    E --> VS[Vector Store - FAISS]
     VS --> R
-    R --> D[Top-k Documents]
+    R --> D[Top-k Retrieved Documents]
     D --> A
     A --> S[Local Summarizer]
     S --> O[Final Answer]
