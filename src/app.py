@@ -11,8 +11,8 @@ def main():
 
     query = "Summarize the documents."
     print("Query:", query)
-    response = agent.run(query)
-    print("\nAgent Response:\n", response)
+    print("\nAgent Response:\n")
+    print(agent.run(query))
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

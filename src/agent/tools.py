@@ -1,5 +1,7 @@
 def local_summarizer(docs):
-    text = " ".join(docs)
-    words = text.split()
-    summary = " ".join(words[:60])
-    return f"Local Summary (no LLM required): {summary}..."
+    """Very simple local summarizer that truncates text to the first N words."""
+    combined = " ".join(docs)
+    words = combined.split()
+    max_words = 80
+    snippet = " ".join(words[:max_words])
+    return f"Local Summary (no external LLM used): {snippet}..."

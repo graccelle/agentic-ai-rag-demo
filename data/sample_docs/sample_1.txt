@@ -1,1 +1,1 @@
-This is a sample document demonstrating local summarization for the portfolio repo.
+This is a demo document for your agentic RAG portfolio project. You can add more text files into this folder to extend what the agent can read.
