@@ -1,0 +1,1 @@
+This is a sample document demonstrating local summarization for the portfolio repo.
